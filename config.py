@@ -12,7 +12,7 @@ from os import getenv
 
 from dotenv import load_dotenv
 
-from Bot.script import PRIVATE_START_MESSAGE, Photo
+from bot.script import PRIVATE_START_MESSAGE, Photo
 
 load_dotenv()
 
