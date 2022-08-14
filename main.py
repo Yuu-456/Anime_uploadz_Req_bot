@@ -17,6 +17,7 @@ from pyrogram import filters, idle
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
+from Bot.script import PRIVATE_START_MESSAGE, Photo 
 import config
 import mongo
 from mongo import db
@@ -306,7 +307,7 @@ async def init():
                     "Failed to send the message, User might have blocked the bot or something wrong happened. Please check logs"
                 )
 
-    print("[LOG] - Yukki Chat Bot Started")
+    print("[LOG] - @Anime_Uploadz Req. Bot Started")
     await idle()
 
 
