@@ -17,7 +17,7 @@ from pyrogram import filters, idle
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
-from Bot.script import PRIVATE_START_MESSAGE, Photo 
+from bot.script import PRIVATE_START_MESSAGE, Photo 
 import config
 import mongo
 from mongo import db
